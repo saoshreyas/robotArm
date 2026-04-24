@@ -1,0 +1,4 @@
+Invoking command in '/home/saosh/ros2_ws/build/simple_arm_description': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/saosh/ros2_ws/build/simple_arm_description -- -j22 -l22
+Invoked command in '/home/saosh/ros2_ws/build/simple_arm_description' returned '0': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/saosh/ros2_ws/build/simple_arm_description -- -j22 -l22
+Invoking command in '/home/saosh/ros2_ws/build/simple_arm_description': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/saosh/ros2_ws/build/simple_arm_description
+Invoked command in '/home/saosh/ros2_ws/build/simple_arm_description' returned '0': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/saosh/ros2_ws/build/simple_arm_description

@@ -1,0 +1,47 @@
+[0.549s] Invoking command in '/home/saosh/ros2_ws/build/simple_arm_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/saosh/ros2_ws/install/my_package:/mnt/c/Users/saosh/OneDrive - UW/Andy/ros2_ws/install/simple_arm_description:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/saosh/ros2_ws/src/simple_arm_description -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/saosh/ros2_ws/install/simple_arm_description
+[1.432s] -- The C compiler identification is GNU 13.3.0
+[3.616s] -- The CXX compiler identification is GNU 13.3.0
+[5.440s] -- Detecting C compiler ABI info
+[6.218s] -- Detecting C compiler ABI info - done
+[6.229s] -- Check for working C compiler: /usr/bin/cc - skipped
+[6.231s] -- Detecting C compile features
+[6.232s] -- Detecting C compile features - done
+[6.524s] -- Detecting CXX compiler ABI info
+[7.178s] -- Detecting CXX compiler ABI info - done
+[7.182s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[7.182s] -- Detecting CXX compile features
+[7.183s] -- Detecting CXX compile features - done
+[7.657s] -- Found ament_cmake: 2.5.4 (/opt/ros/jazzy/share/ament_cmake/cmake)
+[14.336s] -- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter 
+[14.479s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[17.785s] -- Found ament_lint_auto: 0.17.3 (/opt/ros/jazzy/share/ament_lint_auto/cmake)
+[17.930s] -- Configuring done (17.2s)
+[17.935s] -- Generating done (0.0s)
+[17.939s] -- Build files have been written to: /home/saosh/ros2_ws/build/simple_arm_description
+[17.950s] Invoked command in '/home/saosh/ros2_ws/build/simple_arm_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/saosh/ros2_ws/install/my_package:/mnt/c/Users/saosh/OneDrive - UW/Andy/ros2_ws/install/simple_arm_description:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/saosh/ros2_ws/src/simple_arm_description -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/saosh/ros2_ws/install/simple_arm_description
+[17.953s] Invoking command in '/home/saosh/ros2_ws/build/simple_arm_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/saosh/ros2_ws/install/my_package:/mnt/c/Users/saosh/OneDrive - UW/Andy/ros2_ws/install/simple_arm_description:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/saosh/ros2_ws/build/simple_arm_description -- -j22 -l22
+[18.024s] Invoked command in '/home/saosh/ros2_ws/build/simple_arm_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/saosh/ros2_ws/install/my_package:/mnt/c/Users/saosh/OneDrive - UW/Andy/ros2_ws/install/simple_arm_description:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/saosh/ros2_ws/build/simple_arm_description -- -j22 -l22
+[18.040s] Invoking command in '/home/saosh/ros2_ws/build/simple_arm_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/saosh/ros2_ws/install/my_package:/mnt/c/Users/saosh/OneDrive - UW/Andy/ros2_ws/install/simple_arm_description:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/saosh/ros2_ws/build/simple_arm_description
+[18.054s] -- Install configuration: ""
+[18.055s] -- Execute custom install script
+[18.057s] -- Symlinking: /home/saosh/ros2_ws/install/simple_arm_description/share/simple_arm_description/config/controllers.yaml
+[18.072s] -- Symlinking: /home/saosh/ros2_ws/install/simple_arm_description/share/simple_arm_description/launch/display.launch.py
+[18.085s] -- Symlinking: /home/saosh/ros2_ws/install/simple_arm_description/share/simple_arm_description/rviz/simple_arm.rviz
+[18.100s] -- Symlinking: /home/saosh/ros2_ws/install/simple_arm_description/share/simple_arm_description/urdf/simple_arm.urdf
+[18.117s] -- Symlinking: /home/saosh/ros2_ws/install/simple_arm_description/share/simple_arm_description/urdf/simple_arm_ros2_control.xacro
+[18.136s] -- Symlinking: /home/saosh/ros2_ws/install/simple_arm_description/share/ament_index/resource_index/package_run_dependencies/simple_arm_description
+[18.150s] -- Symlinking: /home/saosh/ros2_ws/install/simple_arm_description/share/ament_index/resource_index/parent_prefix_path/simple_arm_description
+[18.165s] -- Symlinking: /home/saosh/ros2_ws/install/simple_arm_description/share/simple_arm_description/environment/ament_prefix_path.sh
+[18.178s] -- Symlinking: /home/saosh/ros2_ws/install/simple_arm_description/share/simple_arm_description/environment/ament_prefix_path.dsv
+[18.192s] -- Symlinking: /home/saosh/ros2_ws/install/simple_arm_description/share/simple_arm_description/environment/path.sh
+[18.205s] -- Symlinking: /home/saosh/ros2_ws/install/simple_arm_description/share/simple_arm_description/environment/path.dsv
+[18.219s] -- Symlinking: /home/saosh/ros2_ws/install/simple_arm_description/share/simple_arm_description/local_setup.bash
+[18.233s] -- Symlinking: /home/saosh/ros2_ws/install/simple_arm_description/share/simple_arm_description/local_setup.sh
+[18.246s] -- Symlinking: /home/saosh/ros2_ws/install/simple_arm_description/share/simple_arm_description/local_setup.zsh
+[18.261s] -- Symlinking: /home/saosh/ros2_ws/install/simple_arm_description/share/simple_arm_description/local_setup.dsv
+[18.273s] -- Symlinking: /home/saosh/ros2_ws/install/simple_arm_description/share/simple_arm_description/package.dsv
+[18.288s] -- Symlinking: /home/saosh/ros2_ws/install/simple_arm_description/share/ament_index/resource_index/packages/simple_arm_description
+[18.301s] -- Symlinking: /home/saosh/ros2_ws/install/simple_arm_description/share/simple_arm_description/cmake/simple_arm_descriptionConfig.cmake
+[18.316s] -- Symlinking: /home/saosh/ros2_ws/install/simple_arm_description/share/simple_arm_description/cmake/simple_arm_descriptionConfig-version.cmake
+[18.331s] -- Symlinking: /home/saosh/ros2_ws/install/simple_arm_description/share/simple_arm_description/package.xml
+[18.349s] Invoked command in '/home/saosh/ros2_ws/build/simple_arm_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/saosh/ros2_ws/install/my_package:/mnt/c/Users/saosh/OneDrive - UW/Andy/ros2_ws/install/simple_arm_description:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/saosh/ros2_ws/build/simple_arm_description

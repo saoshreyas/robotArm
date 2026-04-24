@@ -1,0 +1,237 @@
+[0.000000] (-) TimerEvent: {}
+[0.000967] (simple_arm_description) JobQueued: {'identifier': 'simple_arm_description', 'dependencies': OrderedDict()}
+[0.003594] (simple_arm_description) JobStarted: {'identifier': 'simple_arm_description'}
+[0.098302] (-) TimerEvent: {}
+[0.199360] (-) TimerEvent: {}
+[0.299979] (-) TimerEvent: {}
+[0.400643] (-) TimerEvent: {}
+[0.501552] (-) TimerEvent: {}
+[0.547368] (simple_arm_description) JobProgress: {'identifier': 'simple_arm_description', 'progress': 'cmake'}
+[0.550003] (simple_arm_description) Command: {'cmd': ['/usr/bin/cmake', '/home/saosh/ros2_ws/src/simple_arm_description', '-DAMENT_CMAKE_SYMLINK_INSTALL=1', '-DCMAKE_INSTALL_PREFIX=/home/saosh/ros2_ws/install/simple_arm_description'], 'cwd': '/home/saosh/ros2_ws/build/simple_arm_description', 'env': OrderedDict({'LESSOPEN': '| /usr/bin/lesspipe %s', 'GZ_SIM_RESOURCE_PATH': '/opt/ros/jazzy/share', 'USER': 'saosh', 'GZ_CONFIG_PATH': '/opt/ros/jazzy/opt/gz_sim_vendor/share/gz:/opt/ros/jazzy/opt/sdformat_vendor/share/gz:/opt/ros/jazzy/opt/gz_gui_vendor/share/gz:/opt/ros/jazzy/opt/gz_transport_vendor/share/gz:/opt/ros/jazzy/opt/gz_rendering_vendor/share/gz:/opt/ros/jazzy/opt/gz_plugin_vendor/share/gz:/opt/ros/jazzy/opt/gz_fuel_tools_vendor/share/gz:/opt/ros/jazzy/opt/gz_msgs_vendor/share/gz:/opt/ros/jazzy/opt/gz_common_vendor/share/gz', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/opt/ros/jazzy/opt/gz_sim_vendor/lib:/opt/ros/jazzy/opt/gz_sensors_vendor/lib:/opt/ros/jazzy/opt/gz_physics_vendor/lib:/opt/ros/jazzy/opt/sdformat_vendor/lib:/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/x86_64-linux-gnu:/opt/ros/jazzy/opt/gz_gui_vendor/lib:/opt/ros/jazzy/opt/gz_transport_vendor/lib:/opt/ros/jazzy/opt/gz_rendering_vendor/lib:/opt/ros/jazzy/opt/gz_plugin_vendor/lib:/opt/ros/jazzy/opt/gz_fuel_tools_vendor/lib:/opt/ros/jazzy/opt/gz_msgs_vendor/lib:/opt/ros/jazzy/opt/gz_common_vendor/lib:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_tools_vendor/lib:/opt/ros/jazzy/opt/gz_ogre_next_vendor/lib:/opt/ros/jazzy/opt/gz_dartsim_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib', 'WT_PROFILE_ID': '{51855cb2-8cce-5362-8f54-464b92b32386}', 'HOME': '/home/saosh', 'OLDPWD': '/mnt/c/Users/saosh/OneDrive - UW/Andy', 'NVM_BIN': '/home/saosh/.nvm/versions/node/v24.7.0/bin', 'NVM_INC': '/home/saosh/.nvm/versions/node/v24.7.0/include/node', 'ROS_PYTHON_VERSION': '3', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'WSL_DISTRO_NAME': 'Ubuntu', 'NVM_DIR': '/home/saosh/.nvm', 'DEBUGINFOD_URLS': 'https://debuginfod.ubuntu.com', 'WAYLAND_DISPLAY': 'wayland-0', 'COLCON_PREFIX_PATH': '/home/saosh/ros2_ws/install:/mnt/c/Users/saosh/OneDrive - UW/Andy/ros2_ws/install', 'ROS_DISTRO': 'jazzy', 'LOGNAME': 'saosh', 'NAME': 'SaoTiptop', 'WSL_INTEROP': '/run/WSL/3101_interop', 'PULSE_SERVER': 'unix:/mnt/wslg/PulseServer', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'TERM': 'xterm-256color', 'PATH': '/opt/ros/jazzy/opt/gz_msgs_vendor/bin:/opt/ros/jazzy/opt/gz_tools_vendor/bin:/opt/ros/jazzy/opt/gz_ogre_next_vendor/bin:/opt/ros/jazzy/bin:/home/saosh/.nvm/versions/node/v24.7.0/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/usr/lib/wsl/lib:/mnt/c/Program Files/Eclipse Adoptium/jdk-25.0.1.8-hotspot/bin:/mnt/c/Python313/Scripts/:/mnt/c/Python313/:/mnt/c/Windows/system32:/mnt/c/Windows:/mnt/c/Windows/System32/Wbem:/mnt/c/Windows/System32/WindowsPowerShell/v1.0/:/mnt/c/Windows/System32/OpenSSH/:/mnt/c/Program Files (x86)/NVIDIA Corporation/PhysX/Common:/mnt/c/Program Files/dotnet/:/mnt/c/Program Files/NVIDIA Corporation/NVIDIA NvDLISR:/mnt/c/Program Files/nodejs/:/mnt/c/ProgramData/chocolatey/bin:/mnt/c/Program Files/Git/cmd:/mnt/c/Users/saosh/AppData/Local/Microsoft/WindowsApps:/mnt/c/Users/saosh/AppData/Local/Programs/Microsoft VS Code/bin:/mnt/c/Users/saosh/AppData/Roaming/npm:/mnt/c/Users/saosh/AppData/Local/GitHubDesktop/bin:/snap/bin', 'WT_SESSION': '566a8ee7-c660-44af-abc0-8b7eb7028b48', 'XDG_RUNTIME_DIR': '/run/user/1000/', 'DISPLAY': ':0', 'LANG': 'en_US.UTF-8', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'AMENT_PREFIX_PATH': '/home/saosh/ros2_ws/install/simple_arm_description:/home/saosh/ros2_ws/install/robot_arm_description:/home/saosh/ros2_ws/install/my_package:/mnt/c/Users/saosh/OneDrive - UW/Andy/ros2_ws/install/simple_arm_description:/opt/ros/jazzy', 'SHELL': '/bin/bash', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'PWD': '/home/saosh/ros2_ws/build/simple_arm_description', 'NVM_CD_FLAGS': '', 'XDG_DATA_DIRS': '/usr/local/share:/usr/share:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/saosh/ros2_ws/build/my_package:/home/saosh/ros2_ws/install/my_package/lib/python3.12/site-packages:/opt/ros/jazzy/lib/python3.12/site-packages', 'COLCON': '1', 'WSL2_GUI_APPS_ENABLED': '1', 'HOSTTYPE': 'x86_64', 'CMAKE_PREFIX_PATH': '/home/saosh/ros2_ws/install/simple_arm_description:/home/saosh/ros2_ws/install/robot_arm_description:/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/home/saosh/ros2_ws/install/my_package:/mnt/c/Users/saosh/OneDrive - UW/Andy/ros2_ws/install/simple_arm_description:/opt/ros/jazzy', 'WSLENV': 'WT_SESSION:WT_PROFILE_ID:'}), 'shell': False}
+[0.602097] (-) TimerEvent: {}
+[0.702758] (-) TimerEvent: {}
+[0.803296] (-) TimerEvent: {}
+[0.903886] (-) TimerEvent: {}
+[1.004605] (-) TimerEvent: {}
+[1.105361] (-) TimerEvent: {}
+[1.205942] (-) TimerEvent: {}
+[1.306708] (-) TimerEvent: {}
+[1.407386] (-) TimerEvent: {}
+[1.433866] (simple_arm_description) StdoutLine: {'line': b'-- The C compiler identification is GNU 13.3.0\n'}
+[1.507714] (-) TimerEvent: {}
+[1.608347] (-) TimerEvent: {}
+[1.709076] (-) TimerEvent: {}
+[1.809765] (-) TimerEvent: {}
+[1.911002] (-) TimerEvent: {}
+[2.011608] (-) TimerEvent: {}
+[2.112240] (-) TimerEvent: {}
+[2.212794] (-) TimerEvent: {}
+[2.313442] (-) TimerEvent: {}
+[2.414024] (-) TimerEvent: {}
+[2.514695] (-) TimerEvent: {}
+[2.615327] (-) TimerEvent: {}
+[2.715937] (-) TimerEvent: {}
+[2.816584] (-) TimerEvent: {}
+[2.917118] (-) TimerEvent: {}
+[3.017686] (-) TimerEvent: {}
+[3.118358] (-) TimerEvent: {}
+[3.219102] (-) TimerEvent: {}
+[3.319806] (-) TimerEvent: {}
+[3.420729] (-) TimerEvent: {}
+[3.521419] (-) TimerEvent: {}
+[3.619175] (simple_arm_description) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 13.3.0\n'}
+[3.621521] (-) TimerEvent: {}
+[3.721963] (-) TimerEvent: {}
+[3.822551] (-) TimerEvent: {}
+[3.923193] (-) TimerEvent: {}
+[4.023761] (-) TimerEvent: {}
+[4.124387] (-) TimerEvent: {}
+[4.225159] (-) TimerEvent: {}
+[4.325836] (-) TimerEvent: {}
+[4.426488] (-) TimerEvent: {}
+[4.527383] (-) TimerEvent: {}
+[4.628226] (-) TimerEvent: {}
+[4.729668] (-) TimerEvent: {}
+[4.830317] (-) TimerEvent: {}
+[4.931036] (-) TimerEvent: {}
+[5.031595] (-) TimerEvent: {}
+[5.132285] (-) TimerEvent: {}
+[5.232845] (-) TimerEvent: {}
+[5.333350] (-) TimerEvent: {}
+[5.433837] (-) TimerEvent: {}
+[5.443365] (simple_arm_description) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[5.534034] (-) TimerEvent: {}
+[5.634763] (-) TimerEvent: {}
+[5.735451] (-) TimerEvent: {}
+[5.836091] (-) TimerEvent: {}
+[5.936732] (-) TimerEvent: {}
+[6.037364] (-) TimerEvent: {}
+[6.137978] (-) TimerEvent: {}
+[6.221293] (simple_arm_description) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[6.232165] (simple_arm_description) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc - skipped\n'}
+[6.234069] (simple_arm_description) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[6.235518] (simple_arm_description) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[6.238027] (-) TimerEvent: {}
+[6.338649] (-) TimerEvent: {}
+[6.439226] (-) TimerEvent: {}
+[6.527493] (simple_arm_description) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[6.539409] (-) TimerEvent: {}
+[6.640011] (-) TimerEvent: {}
+[6.740664] (-) TimerEvent: {}
+[6.841299] (-) TimerEvent: {}
+[6.941933] (-) TimerEvent: {}
+[7.042699] (-) TimerEvent: {}
+[7.143304] (-) TimerEvent: {}
+[7.181254] (simple_arm_description) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[7.185121] (simple_arm_description) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[7.185582] (simple_arm_description) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[7.186910] (simple_arm_description) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[7.243477] (-) TimerEvent: {}
+[7.344055] (-) TimerEvent: {}
+[7.444743] (-) TimerEvent: {}
+[7.545554] (-) TimerEvent: {}
+[7.646151] (-) TimerEvent: {}
+[7.660471] (simple_arm_description) StdoutLine: {'line': b'-- Found ament_cmake: 2.5.4 (/opt/ros/jazzy/share/ament_cmake/cmake)\n'}
+[7.746383] (-) TimerEvent: {}
+[7.847037] (-) TimerEvent: {}
+[7.947546] (-) TimerEvent: {}
+[8.048185] (-) TimerEvent: {}
+[8.148894] (-) TimerEvent: {}
+[8.249532] (-) TimerEvent: {}
+[8.350107] (-) TimerEvent: {}
+[8.450796] (-) TimerEvent: {}
+[8.551481] (-) TimerEvent: {}
+[8.652140] (-) TimerEvent: {}
+[8.752728] (-) TimerEvent: {}
+[8.853333] (-) TimerEvent: {}
+[8.953894] (-) TimerEvent: {}
+[9.054709] (-) TimerEvent: {}
+[9.155329] (-) TimerEvent: {}
+[9.255849] (-) TimerEvent: {}
+[9.356376] (-) TimerEvent: {}
+[9.457017] (-) TimerEvent: {}
+[9.557722] (-) TimerEvent: {}
+[9.658378] (-) TimerEvent: {}
+[9.759133] (-) TimerEvent: {}
+[9.859652] (-) TimerEvent: {}
+[9.960284] (-) TimerEvent: {}
+[10.060867] (-) TimerEvent: {}
+[10.161505] (-) TimerEvent: {}
+[10.262259] (-) TimerEvent: {}
+[10.363066] (-) TimerEvent: {}
+[10.463610] (-) TimerEvent: {}
+[10.564173] (-) TimerEvent: {}
+[10.664668] (-) TimerEvent: {}
+[10.765588] (-) TimerEvent: {}
+[10.866139] (-) TimerEvent: {}
+[10.966775] (-) TimerEvent: {}
+[11.067409] (-) TimerEvent: {}
+[11.168126] (-) TimerEvent: {}
+[11.268701] (-) TimerEvent: {}
+[11.369474] (-) TimerEvent: {}
+[11.470290] (-) TimerEvent: {}
+[11.571070] (-) TimerEvent: {}
+[11.671908] (-) TimerEvent: {}
+[11.772664] (-) TimerEvent: {}
+[11.873302] (-) TimerEvent: {}
+[11.973843] (-) TimerEvent: {}
+[12.074570] (-) TimerEvent: {}
+[12.175253] (-) TimerEvent: {}
+[12.275765] (-) TimerEvent: {}
+[12.376271] (-) TimerEvent: {}
+[12.476922] (-) TimerEvent: {}
+[12.577485] (-) TimerEvent: {}
+[12.678065] (-) TimerEvent: {}
+[12.779050] (-) TimerEvent: {}
+[12.879704] (-) TimerEvent: {}
+[12.980430] (-) TimerEvent: {}
+[13.081200] (-) TimerEvent: {}
+[13.181778] (-) TimerEvent: {}
+[13.282343] (-) TimerEvent: {}
+[13.383025] (-) TimerEvent: {}
+[13.484469] (-) TimerEvent: {}
+[13.586155] (-) TimerEvent: {}
+[13.687365] (-) TimerEvent: {}
+[13.788295] (-) TimerEvent: {}
+[13.888823] (-) TimerEvent: {}
+[13.989353] (-) TimerEvent: {}
+[14.090000] (-) TimerEvent: {}
+[14.190702] (-) TimerEvent: {}
+[14.291175] (-) TimerEvent: {}
+[14.339166] (simple_arm_description) StdoutLine: {'line': b'-- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter \n'}
+[14.391318] (-) TimerEvent: {}
+[14.482214] (simple_arm_description) StdoutLine: {'line': b'-- Override CMake install command with custom implementation using symlinks instead of copying resources\n'}
+[14.491484] (-) TimerEvent: {}
+[14.591949] (-) TimerEvent: {}
+[14.692531] (-) TimerEvent: {}
+[14.793164] (-) TimerEvent: {}
+[14.893890] (-) TimerEvent: {}
+[14.994699] (-) TimerEvent: {}
+[15.095473] (-) TimerEvent: {}
+[15.196245] (-) TimerEvent: {}
+[15.296920] (-) TimerEvent: {}
+[15.397487] (-) TimerEvent: {}
+[15.498131] (-) TimerEvent: {}
+[15.598964] (-) TimerEvent: {}
+[15.699656] (-) TimerEvent: {}
+[15.800462] (-) TimerEvent: {}
+[15.901017] (-) TimerEvent: {}
+[16.001593] (-) TimerEvent: {}
+[16.102246] (-) TimerEvent: {}
+[16.202849] (-) TimerEvent: {}
+[16.303368] (-) TimerEvent: {}
+[16.404005] (-) TimerEvent: {}
+[16.504563] (-) TimerEvent: {}
+[16.605173] (-) TimerEvent: {}
+[16.705845] (-) TimerEvent: {}
+[16.806405] (-) TimerEvent: {}
+[16.907111] (-) TimerEvent: {}
+[17.007953] (-) TimerEvent: {}
+[17.108725] (-) TimerEvent: {}
+[17.209419] (-) TimerEvent: {}
+[17.310003] (-) TimerEvent: {}
+[17.410595] (-) TimerEvent: {}
+[17.511082] (-) TimerEvent: {}
+[17.611525] (-) TimerEvent: {}
+[17.712079] (-) TimerEvent: {}
+[17.788460] (simple_arm_description) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.17.3 (/opt/ros/jazzy/share/ament_lint_auto/cmake)\n'}
+[17.812207] (-) TimerEvent: {}
+[17.912555] (-) TimerEvent: {}
+[17.933462] (simple_arm_description) StdoutLine: {'line': b'-- Configuring done (17.2s)\n'}
+[17.938447] (simple_arm_description) StdoutLine: {'line': b'-- Generating done (0.0s)\n'}
+[17.942211] (simple_arm_description) StdoutLine: {'line': b'-- Build files have been written to: /home/saosh/ros2_ws/build/simple_arm_description\n'}
+[17.953317] (simple_arm_description) CommandEnded: {'returncode': 0}
+[17.955399] (simple_arm_description) JobProgress: {'identifier': 'simple_arm_description', 'progress': 'build'}
+[17.955461] (simple_arm_description) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/saosh/ros2_ws/build/simple_arm_description', '--', '-j22', '-l22'], 'cwd': '/home/saosh/ros2_ws/build/simple_arm_description', 'env': OrderedDict({'LESSOPEN': '| /usr/bin/lesspipe %s', 'GZ_SIM_RESOURCE_PATH': '/opt/ros/jazzy/share', 'USER': 'saosh', 'GZ_CONFIG_PATH': '/opt/ros/jazzy/opt/gz_sim_vendor/share/gz:/opt/ros/jazzy/opt/sdformat_vendor/share/gz:/opt/ros/jazzy/opt/gz_gui_vendor/share/gz:/opt/ros/jazzy/opt/gz_transport_vendor/share/gz:/opt/ros/jazzy/opt/gz_rendering_vendor/share/gz:/opt/ros/jazzy/opt/gz_plugin_vendor/share/gz:/opt/ros/jazzy/opt/gz_fuel_tools_vendor/share/gz:/opt/ros/jazzy/opt/gz_msgs_vendor/share/gz:/opt/ros/jazzy/opt/gz_common_vendor/share/gz', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/opt/ros/jazzy/opt/gz_sim_vendor/lib:/opt/ros/jazzy/opt/gz_sensors_vendor/lib:/opt/ros/jazzy/opt/gz_physics_vendor/lib:/opt/ros/jazzy/opt/sdformat_vendor/lib:/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/x86_64-linux-gnu:/opt/ros/jazzy/opt/gz_gui_vendor/lib:/opt/ros/jazzy/opt/gz_transport_vendor/lib:/opt/ros/jazzy/opt/gz_rendering_vendor/lib:/opt/ros/jazzy/opt/gz_plugin_vendor/lib:/opt/ros/jazzy/opt/gz_fuel_tools_vendor/lib:/opt/ros/jazzy/opt/gz_msgs_vendor/lib:/opt/ros/jazzy/opt/gz_common_vendor/lib:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_tools_vendor/lib:/opt/ros/jazzy/opt/gz_ogre_next_vendor/lib:/opt/ros/jazzy/opt/gz_dartsim_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib', 'WT_PROFILE_ID': '{51855cb2-8cce-5362-8f54-464b92b32386}', 'HOME': '/home/saosh', 'OLDPWD': '/mnt/c/Users/saosh/OneDrive - UW/Andy', 'NVM_BIN': '/home/saosh/.nvm/versions/node/v24.7.0/bin', 'NVM_INC': '/home/saosh/.nvm/versions/node/v24.7.0/include/node', 'ROS_PYTHON_VERSION': '3', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'WSL_DISTRO_NAME': 'Ubuntu', 'NVM_DIR': '/home/saosh/.nvm', 'DEBUGINFOD_URLS': 'https://debuginfod.ubuntu.com', 'WAYLAND_DISPLAY': 'wayland-0', 'COLCON_PREFIX_PATH': '/home/saosh/ros2_ws/install:/mnt/c/Users/saosh/OneDrive - UW/Andy/ros2_ws/install', 'ROS_DISTRO': 'jazzy', 'LOGNAME': 'saosh', 'NAME': 'SaoTiptop', 'WSL_INTEROP': '/run/WSL/3101_interop', 'PULSE_SERVER': 'unix:/mnt/wslg/PulseServer', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'TERM': 'xterm-256color', 'PATH': '/opt/ros/jazzy/opt/gz_msgs_vendor/bin:/opt/ros/jazzy/opt/gz_tools_vendor/bin:/opt/ros/jazzy/opt/gz_ogre_next_vendor/bin:/opt/ros/jazzy/bin:/home/saosh/.nvm/versions/node/v24.7.0/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/usr/lib/wsl/lib:/mnt/c/Program Files/Eclipse Adoptium/jdk-25.0.1.8-hotspot/bin:/mnt/c/Python313/Scripts/:/mnt/c/Python313/:/mnt/c/Windows/system32:/mnt/c/Windows:/mnt/c/Windows/System32/Wbem:/mnt/c/Windows/System32/WindowsPowerShell/v1.0/:/mnt/c/Windows/System32/OpenSSH/:/mnt/c/Program Files (x86)/NVIDIA Corporation/PhysX/Common:/mnt/c/Program Files/dotnet/:/mnt/c/Program Files/NVIDIA Corporation/NVIDIA NvDLISR:/mnt/c/Program Files/nodejs/:/mnt/c/ProgramData/chocolatey/bin:/mnt/c/Program Files/Git/cmd:/mnt/c/Users/saosh/AppData/Local/Microsoft/WindowsApps:/mnt/c/Users/saosh/AppData/Local/Programs/Microsoft VS Code/bin:/mnt/c/Users/saosh/AppData/Roaming/npm:/mnt/c/Users/saosh/AppData/Local/GitHubDesktop/bin:/snap/bin', 'WT_SESSION': '566a8ee7-c660-44af-abc0-8b7eb7028b48', 'XDG_RUNTIME_DIR': '/run/user/1000/', 'DISPLAY': ':0', 'LANG': 'en_US.UTF-8', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'AMENT_PREFIX_PATH': '/home/saosh/ros2_ws/install/simple_arm_description:/home/saosh/ros2_ws/install/robot_arm_description:/home/saosh/ros2_ws/install/my_package:/mnt/c/Users/saosh/OneDrive - UW/Andy/ros2_ws/install/simple_arm_description:/opt/ros/jazzy', 'SHELL': '/bin/bash', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'PWD': '/home/saosh/ros2_ws/build/simple_arm_description', 'NVM_CD_FLAGS': '', 'XDG_DATA_DIRS': '/usr/local/share:/usr/share:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/saosh/ros2_ws/build/my_package:/home/saosh/ros2_ws/install/my_package/lib/python3.12/site-packages:/opt/ros/jazzy/lib/python3.12/site-packages', 'COLCON': '1', 'WSL2_GUI_APPS_ENABLED': '1', 'HOSTTYPE': 'x86_64', 'CMAKE_PREFIX_PATH': '/home/saosh/ros2_ws/install/simple_arm_description:/home/saosh/ros2_ws/install/robot_arm_description:/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/home/saosh/ros2_ws/install/my_package:/mnt/c/Users/saosh/OneDrive - UW/Andy/ros2_ws/install/simple_arm_description:/opt/ros/jazzy', 'WSLENV': 'WT_SESSION:WT_PROFILE_ID:'}), 'shell': False}
+[18.012851] (-) TimerEvent: {}
+[18.026959] (simple_arm_description) CommandEnded: {'returncode': 0}
+[18.028851] (simple_arm_description) JobProgress: {'identifier': 'simple_arm_description', 'progress': 'install'}
+[18.043429] (simple_arm_description) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/saosh/ros2_ws/build/simple_arm_description'], 'cwd': '/home/saosh/ros2_ws/build/simple_arm_description', 'env': OrderedDict({'LESSOPEN': '| /usr/bin/lesspipe %s', 'GZ_SIM_RESOURCE_PATH': '/opt/ros/jazzy/share', 'USER': 'saosh', 'GZ_CONFIG_PATH': '/opt/ros/jazzy/opt/gz_sim_vendor/share/gz:/opt/ros/jazzy/opt/sdformat_vendor/share/gz:/opt/ros/jazzy/opt/gz_gui_vendor/share/gz:/opt/ros/jazzy/opt/gz_transport_vendor/share/gz:/opt/ros/jazzy/opt/gz_rendering_vendor/share/gz:/opt/ros/jazzy/opt/gz_plugin_vendor/share/gz:/opt/ros/jazzy/opt/gz_fuel_tools_vendor/share/gz:/opt/ros/jazzy/opt/gz_msgs_vendor/share/gz:/opt/ros/jazzy/opt/gz_common_vendor/share/gz', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/opt/ros/jazzy/opt/gz_sim_vendor/lib:/opt/ros/jazzy/opt/gz_sensors_vendor/lib:/opt/ros/jazzy/opt/gz_physics_vendor/lib:/opt/ros/jazzy/opt/sdformat_vendor/lib:/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/x86_64-linux-gnu:/opt/ros/jazzy/opt/gz_gui_vendor/lib:/opt/ros/jazzy/opt/gz_transport_vendor/lib:/opt/ros/jazzy/opt/gz_rendering_vendor/lib:/opt/ros/jazzy/opt/gz_plugin_vendor/lib:/opt/ros/jazzy/opt/gz_fuel_tools_vendor/lib:/opt/ros/jazzy/opt/gz_msgs_vendor/lib:/opt/ros/jazzy/opt/gz_common_vendor/lib:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_tools_vendor/lib:/opt/ros/jazzy/opt/gz_ogre_next_vendor/lib:/opt/ros/jazzy/opt/gz_dartsim_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib', 'WT_PROFILE_ID': '{51855cb2-8cce-5362-8f54-464b92b32386}', 'HOME': '/home/saosh', 'OLDPWD': '/mnt/c/Users/saosh/OneDrive - UW/Andy', 'NVM_BIN': '/home/saosh/.nvm/versions/node/v24.7.0/bin', 'NVM_INC': '/home/saosh/.nvm/versions/node/v24.7.0/include/node', 'ROS_PYTHON_VERSION': '3', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'WSL_DISTRO_NAME': 'Ubuntu', 'NVM_DIR': '/home/saosh/.nvm', 'DEBUGINFOD_URLS': 'https://debuginfod.ubuntu.com', 'WAYLAND_DISPLAY': 'wayland-0', 'COLCON_PREFIX_PATH': '/home/saosh/ros2_ws/install:/mnt/c/Users/saosh/OneDrive - UW/Andy/ros2_ws/install', 'ROS_DISTRO': 'jazzy', 'LOGNAME': 'saosh', 'NAME': 'SaoTiptop', 'WSL_INTEROP': '/run/WSL/3101_interop', 'PULSE_SERVER': 'unix:/mnt/wslg/PulseServer', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'TERM': 'xterm-256color', 'PATH': '/opt/ros/jazzy/opt/gz_msgs_vendor/bin:/opt/ros/jazzy/opt/gz_tools_vendor/bin:/opt/ros/jazzy/opt/gz_ogre_next_vendor/bin:/opt/ros/jazzy/bin:/home/saosh/.nvm/versions/node/v24.7.0/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/usr/lib/wsl/lib:/mnt/c/Program Files/Eclipse Adoptium/jdk-25.0.1.8-hotspot/bin:/mnt/c/Python313/Scripts/:/mnt/c/Python313/:/mnt/c/Windows/system32:/mnt/c/Windows:/mnt/c/Windows/System32/Wbem:/mnt/c/Windows/System32/WindowsPowerShell/v1.0/:/mnt/c/Windows/System32/OpenSSH/:/mnt/c/Program Files (x86)/NVIDIA Corporation/PhysX/Common:/mnt/c/Program Files/dotnet/:/mnt/c/Program Files/NVIDIA Corporation/NVIDIA NvDLISR:/mnt/c/Program Files/nodejs/:/mnt/c/ProgramData/chocolatey/bin:/mnt/c/Program Files/Git/cmd:/mnt/c/Users/saosh/AppData/Local/Microsoft/WindowsApps:/mnt/c/Users/saosh/AppData/Local/Programs/Microsoft VS Code/bin:/mnt/c/Users/saosh/AppData/Roaming/npm:/mnt/c/Users/saosh/AppData/Local/GitHubDesktop/bin:/snap/bin', 'WT_SESSION': '566a8ee7-c660-44af-abc0-8b7eb7028b48', 'XDG_RUNTIME_DIR': '/run/user/1000/', 'DISPLAY': ':0', 'LANG': 'en_US.UTF-8', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'AMENT_PREFIX_PATH': '/home/saosh/ros2_ws/install/simple_arm_description:/home/saosh/ros2_ws/install/robot_arm_description:/home/saosh/ros2_ws/install/my_package:/mnt/c/Users/saosh/OneDrive - UW/Andy/ros2_ws/install/simple_arm_description:/opt/ros/jazzy', 'SHELL': '/bin/bash', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'PWD': '/home/saosh/ros2_ws/build/simple_arm_description', 'NVM_CD_FLAGS': '', 'XDG_DATA_DIRS': '/usr/local/share:/usr/share:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/saosh/ros2_ws/build/my_package:/home/saosh/ros2_ws/install/my_package/lib/python3.12/site-packages:/opt/ros/jazzy/lib/python3.12/site-packages', 'COLCON': '1', 'WSL2_GUI_APPS_ENABLED': '1', 'HOSTTYPE': 'x86_64', 'CMAKE_PREFIX_PATH': '/home/saosh/ros2_ws/install/simple_arm_description:/home/saosh/ros2_ws/install/robot_arm_description:/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/home/saosh/ros2_ws/install/my_package:/mnt/c/Users/saosh/OneDrive - UW/Andy/ros2_ws/install/simple_arm_description:/opt/ros/jazzy', 'WSLENV': 'WT_SESSION:WT_PROFILE_ID:'}), 'shell': False}
+[18.057846] (simple_arm_description) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[18.058453] (simple_arm_description) StdoutLine: {'line': b'-- Execute custom install script\n'}
+[18.060520] (simple_arm_description) StdoutLine: {'line': b'-- Symlinking: /home/saosh/ros2_ws/install/simple_arm_description/share/simple_arm_description/config/controllers.yaml\n'}
+[18.075204] (simple_arm_description) StdoutLine: {'line': b'-- Symlinking: /home/saosh/ros2_ws/install/simple_arm_description/share/simple_arm_description/launch/display.launch.py\n'}
+[18.087908] (simple_arm_description) StdoutLine: {'line': b'-- Symlinking: /home/saosh/ros2_ws/install/simple_arm_description/share/simple_arm_description/rviz/simple_arm.rviz\n'}
+[18.103083] (simple_arm_description) StdoutLine: {'line': b'-- Symlinking: /home/saosh/ros2_ws/install/simple_arm_description/share/simple_arm_description/urdf/simple_arm.urdf\n'}
+[18.113055] (-) TimerEvent: {}
+[18.120102] (simple_arm_description) StdoutLine: {'line': b'-- Symlinking: /home/saosh/ros2_ws/install/simple_arm_description/share/simple_arm_description/urdf/simple_arm_ros2_control.xacro\n'}
+[18.139033] (simple_arm_description) StdoutLine: {'line': b'-- Symlinking: /home/saosh/ros2_ws/install/simple_arm_description/share/ament_index/resource_index/package_run_dependencies/simple_arm_description\n'}
+[18.152995] (simple_arm_description) StdoutLine: {'line': b'-- Symlinking: /home/saosh/ros2_ws/install/simple_arm_description/share/ament_index/resource_index/parent_prefix_path/simple_arm_description\n'}
+[18.168168] (simple_arm_description) StdoutLine: {'line': b'-- Symlinking: /home/saosh/ros2_ws/install/simple_arm_description/share/simple_arm_description/environment/ament_prefix_path.sh\n'}
+[18.181222] (simple_arm_description) StdoutLine: {'line': b'-- Symlinking: /home/saosh/ros2_ws/install/simple_arm_description/share/simple_arm_description/environment/ament_prefix_path.dsv\n'}
+[18.195887] (simple_arm_description) StdoutLine: {'line': b'-- Symlinking: /home/saosh/ros2_ws/install/simple_arm_description/share/simple_arm_description/environment/path.sh\n'}
+[18.208665] (simple_arm_description) StdoutLine: {'line': b'-- Symlinking: /home/saosh/ros2_ws/install/simple_arm_description/share/simple_arm_description/environment/path.dsv\n'}
+[18.213175] (-) TimerEvent: {}
+[18.222704] (simple_arm_description) StdoutLine: {'line': b'-- Symlinking: /home/saosh/ros2_ws/install/simple_arm_description/share/simple_arm_description/local_setup.bash\n'}
+[18.236296] (simple_arm_description) StdoutLine: {'line': b'-- Symlinking: /home/saosh/ros2_ws/install/simple_arm_description/share/simple_arm_description/local_setup.sh\n'}
+[18.249171] (simple_arm_description) StdoutLine: {'line': b'-- Symlinking: /home/saosh/ros2_ws/install/simple_arm_description/share/simple_arm_description/local_setup.zsh\n'}
+[18.264482] (simple_arm_description) StdoutLine: {'line': b'-- Symlinking: /home/saosh/ros2_ws/install/simple_arm_description/share/simple_arm_description/local_setup.dsv\n'}
+[18.276574] (simple_arm_description) StdoutLine: {'line': b'-- Symlinking: /home/saosh/ros2_ws/install/simple_arm_description/share/simple_arm_description/package.dsv\n'}
+[18.291816] (simple_arm_description) StdoutLine: {'line': b'-- Symlinking: /home/saosh/ros2_ws/install/simple_arm_description/share/ament_index/resource_index/packages/simple_arm_description\n'}
+[18.304689] (simple_arm_description) StdoutLine: {'line': b'-- Symlinking: /home/saosh/ros2_ws/install/simple_arm_description/share/simple_arm_description/cmake/simple_arm_descriptionConfig.cmake\n'}
+[18.313384] (-) TimerEvent: {}
+[18.319662] (simple_arm_description) StdoutLine: {'line': b'-- Symlinking: /home/saosh/ros2_ws/install/simple_arm_description/share/simple_arm_description/cmake/simple_arm_descriptionConfig-version.cmake\n'}
+[18.334329] (simple_arm_description) StdoutLine: {'line': b'-- Symlinking: /home/saosh/ros2_ws/install/simple_arm_description/share/simple_arm_description/package.xml\n'}
+[18.352066] (simple_arm_description) CommandEnded: {'returncode': 0}
+[18.385768] (simple_arm_description) JobEnded: {'identifier': 'simple_arm_description', 'rc': 0}
+[18.387881] (-) EventReactorShutdown: {}

@@ -1,0 +1,139 @@
+<?xml version="1.0"?>
+<robot name="mobile_arm_robot">
+  
+  <material name="blue"><color rgba="0.0 0.0 0.8 1.0"/></material>
+  <material name="red"><color rgba="0.8 0.0 0.0 1.0"/></material>
+  <material name="green"><color rgba="0.0 0.8 0.0 1.0"/></material>
+  <material name="grey"><color rgba="0.5 0.5 0.5 1.0"/></material>
+  <material name="black"><color rgba="0.1 0.1 0.1 1.0"/></material>
+  <material name="orange"><color rgba="1.0 0.5 0.0 1.0"/></material>
+
+  <link name="base_footprint"/>
+  
+  <link name="chassis">
+    <visual>
+      <geometry><box size="0.6 0.4 0.2"/></geometry>
+      <material name="orange"/>
+    </visual>
+  </link>
+  
+  <joint name="base_joint" type="fixed">
+    <parent link="base_footprint"/>
+    <child link="chassis"/>
+    <origin xyz="0 0 0.15" rpy="0 0 0"/>
+  </joint>
+
+  <link name="front_left_wheel">
+    <visual>
+      <geometry><cylinder length="0.05" radius="0.1"/></geometry>
+      <origin xyz="0 0 0" rpy="1.5708 0 0"/>
+      <material name="black"/>
+    </visual>
+  </link>
+  <joint name="front_left_wheel_joint" type="continuous">
+    <parent link="chassis"/>
+    <child link="front_left_wheel"/>
+    <origin xyz="0.2 0.225 -0.15" rpy="0 0 0"/>
+    <axis xyz="0 1 0"/>
+  </joint>
+
+  <link name="front_right_wheel">
+    <visual>
+      <geometry><cylinder length="0.05" radius="0.1"/></geometry>
+      <origin xyz="0 0 0" rpy="1.5708 0 0"/>
+      <material name="black"/>
+    </visual>
+  </link>
+  <joint name="front_right_wheel_joint" type="continuous">
+    <parent link="chassis"/>
+    <child link="front_right_wheel"/>
+    <origin xyz="0.2 -0.225 -0.15" rpy="0 0 0"/>
+    <axis xyz="0 1 0"/>
+  </joint>
+
+  <link name="rear_left_wheel">
+    <visual>
+      <geometry><cylinder length="0.05" radius="0.1"/></geometry>
+      <origin xyz="0 0 0" rpy="1.5708 0 0"/>
+      <material name="black"/>
+    </visual>
+  </link>
+  <joint name="rear_left_wheel_joint" type="continuous">
+    <parent link="chassis"/>
+    <child link="rear_left_wheel"/>
+    <origin xyz="-0.2 0.225 -0.15" rpy="0 0 0"/>
+    <axis xyz="0 1 0"/>
+    <mimic joint="front_left_wheel_joint" multiplier="1.0" offset="0.0"/>
+  </joint>
+
+  <link name="rear_right_wheel">
+    <visual>
+      <geometry><cylinder length="0.05" radius="0.1"/></geometry>
+      <origin xyz="0 0 0" rpy="1.5708 0 0"/>
+      <material name="black"/>
+    </visual>
+  </link>
+  <joint name="rear_right_wheel_joint" type="continuous">
+    <parent link="chassis"/>
+    <child link="rear_right_wheel"/>
+    <origin xyz="-0.2 -0.225 -0.15" rpy="0 0 0"/>
+    <axis xyz="0 1 0"/>
+    <mimic joint="front_right_wheel_joint" multiplier="1.0" offset="0.0"/>
+  </joint>
+
+  <link name="arm_base_link">
+    <visual>
+      <geometry><cylinder length="0.1" radius="0.15"/></geometry>
+      <origin xyz="0 0 0.05" rpy="0 0 0"/>
+      <material name="grey"/>
+    </visual>
+  </link>
+  <joint name="chassis_to_arm" type="fixed">
+    <parent link="chassis"/>
+    <child link="arm_base_link"/>
+    <origin xyz="0 0 0.1" rpy="0 0 0"/>
+  </joint>
+
+  <link name="link1">
+    <visual>
+      <geometry><cylinder length="0.5" radius="0.05"/></geometry>
+      <origin xyz="0 0 0.25" rpy="0 0 0"/>
+      <material name="blue"/>
+    </visual>
+  </link>
+  <joint name="joint1" type="revolute">
+    <parent link="arm_base_link"/>
+    <child link="link1"/>
+    <origin xyz="0 0 0.1" rpy="0 0 0"/>
+    <axis xyz="0 0 1"/>
+    <limit effort="100.0" lower="-3.14159" upper="3.14159" velocity="1.0"/>
+  </joint>
+
+  <link name="link2">
+    <visual>
+      <geometry><cylinder length="0.4" radius="0.04"/></geometry>
+      <origin xyz="0 0 0.2" rpy="0 0 0"/>
+      <material name="red"/>
+    </visual>
+  </link>
+  <joint name="joint2" type="revolute">
+    <parent link="link1"/>
+    <child link="link2"/>
+    <origin xyz="0 0 0.5" rpy="0 0 0"/>
+    <axis xyz="0 1 0"/>
+    <limit effort="50.0" lower="-2.0" upper="2.0" velocity="1.0"/>
+  </joint>
+
+  <link name="end_effector">
+    <visual>
+      <geometry><sphere radius="0.05"/></geometry>
+      <material name="green"/>
+    </visual>
+  </link>
+  <joint name="end_effector_joint" type="fixed">
+    <parent link="link2"/>
+    <child link="end_effector"/>
+    <origin xyz="0 0 0.4" rpy="0 0 0"/>
+  </joint>
+
+</robot>
